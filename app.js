@@ -11,9 +11,13 @@ app.use(express.urlencoded({ extended: false }));
 
 // Importar rotas
 const produtosRoutes = require('./routes/produtosRoutes');
+const entradasRoutes = require('./routes/entradasRoutes');
+const saidasRoutes = require('./routes/saidasRoutes');
 
 // Usar rotas
 app.use('/api', produtosRoutes);
+app.use('/api', entradasRoutes);
+app.use('/api', saidasRoutes);
 
 // Iniciar o servidor
 const PORT = process.env.PORT || 3000;
