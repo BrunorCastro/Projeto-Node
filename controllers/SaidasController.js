@@ -3,9 +3,18 @@ const db = require('../firebaseConfig');
 const SaidaController = {
     createSaida: async (req, res) => {
         try {
+            const produtoSnapshot = db.collection('produtos').doc(req.params.id);
+            doc = await produtoSnapshot.get();
+
             const saidaRef = db.collection('saidas').doc();
             await saidaRef.set(req.body);
-            res.status(201).json({ id: saidaRef.id, ...req.body });
+
+            if (!doc.exists) {
+                res.status(400).json({ message: 'Produto inválido' });
+            }else{
+                res.status(201).json({ id: saidaRef.id, ...req.body });
+            }
+               
         } catch (error) {
             res.status(500).send(error.message);
         }
