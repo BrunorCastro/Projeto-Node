@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\r\n        \"preco_unitario\": 79.9,\r\n        \"nome_produto\": \"Camisa Gola V\",\r\n        \"descricao\": \"Camisa 100% algodão\"\r\n    }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -21,7 +21,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/entradas/JwUL6ZeAPNqHytovTQz0",
+					"raw": "http://localhost:3000/api/entradas/rrmxweILKfsnisqvtZU",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -30,7 +30,7 @@
 					"path": [
 						"api",
 						"entradas",
-						"JwUL6ZeAPNqHytovTQz0"
+						"rrmxweILKfsnisqvtZU"
 					]
 				}
 			},
@@ -62,7 +62,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/api/produtos/QPjb6ET1RuDazI0qkm6W",
+					"raw": "http://localhost:3000/api/entradas/QPjb6ET1RuDazI0qkm6W",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -70,7 +70,7 @@
 					"port": "3000",
 					"path": [
 						"api",
-						"produtos",
+						"entradas",
 						"QPjb6ET1RuDazI0qkm6W"
 					]
 				}
@@ -92,7 +92,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/produtos/QPjb6ET1RuDazI0qkm6W",
+					"raw": "http://localhost:3000/api/entradas/QPjb6ET1RuDazI0qkm6W",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -100,7 +100,7 @@
 					"port": "3000",
 					"path": [
 						"api",
-						"produtos",
+						"entradas",
 						"QPjb6ET1RuDazI0qkm6W"
 					]
 				}
@@ -113,7 +113,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/api/produtos/QPjb6ET1RuDazI0qkm6W",
+					"raw": "http://localhost:3000/api/entradas/QPjb6ET1RuDazI0qkm6W",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -121,7 +121,7 @@
 					"port": "3000",
 					"path": [
 						"api",
-						"produtos",
+						"entradas",
 						"QPjb6ET1RuDazI0qkm6W"
 					]
 				}

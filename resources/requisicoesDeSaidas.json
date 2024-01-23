@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"nome_produto\": \"Jaqueta de Couro\",\r\n  \"descricao\": \"Jaqueta de couro marrom, estilo clássico, tamanho G\",\r\n  \"preco_unitario\": 159.99\r\n}\r\n",
+					"raw": "    {\r\n        \"preco_unitario\": 79.9,\r\n        \"nome_produto\": \"Camisa Gola V\",\r\n        \"descricao\": \"Camisa 100% algodão\"\r\n    }   ",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -21,7 +21,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/produtos",
+					"raw": "http://localhost:3000/api/saidas",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -29,7 +29,7 @@
 					"port": "3000",
 					"path": [
 						"api",
-						"produtos"
+						"saidas"
 					]
 				}
 			},
@@ -41,7 +41,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/api/produtos",
+					"raw": "http://localhost:3000/api/saidas/",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -49,7 +49,8 @@
 					"port": "3000",
 					"path": [
 						"api",
-						"produtos"
+						"saidas",
+						""
 					]
 				}
 			},
@@ -61,7 +62,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/api/produtos/QPjb6ET1RuDazI0qkm6W",
+					"raw": "http://localhost:3000/api/saidas/rrmxweILKfsnisqvtZUr",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -69,8 +70,8 @@
 					"port": "3000",
 					"path": [
 						"api",
-						"produtos",
-						"QPjb6ET1RuDazI0qkm6W"
+						"saidas",
+						"rrmxweILKfsnisqvtZUr"
 					]
 				}
 			},
@@ -91,7 +92,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/produtos/QPjb6ET1RuDazI0qkm6W",
+					"raw": "http://localhost:3000/api/saidas/QPjb6ET1RuDazI0qkm6W",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -99,7 +100,7 @@
 					"port": "3000",
 					"path": [
 						"api",
-						"produtos",
+						"saidas",
 						"QPjb6ET1RuDazI0qkm6W"
 					]
 				}
@@ -112,7 +113,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/api/produtos/QPjb6ET1RuDazI0qkm6W",
+					"raw": "http://localhost:3000/api/saidas/rrmxweILKfsnisqvtZUr",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -120,8 +121,8 @@
 					"port": "3000",
 					"path": [
 						"api",
-						"produtos",
-						"QPjb6ET1RuDazI0qkm6W"
+						"saidas",
+						"rrmxweILKfsnisqvtZUr"
 					]
 				}
 			},
