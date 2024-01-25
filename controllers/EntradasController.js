@@ -1,6 +1,11 @@
 const db = require('../firebaseConfig');
 
 const EntradaController = {
+    /* A função " createEntrada " é usada para criar uma nova entrada de produto. 
+    Primeiro, verifica se o produto existe usando seu ID. 
+    Se o produto não existir, a função retorna um erro. 
+    Caso contrário, ela cria uma nova entrada com as informações fornecidas no corpo da solicitação.*/
+
     createEntrada: async (req, res) => {
         try {
             const produtoSnapshot = db.collection('produtos').doc(req.params.id);
